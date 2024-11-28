@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000; // Definir el puerto en el que correrá l
 const SECRET_KEY = process.env.SECRET_KEY; // Clave secreta para firmar los tokens JWT
 
 const USERS = [ // Arreglo con un usuario de ejemplo
-  { username: 'admin', password: 'password123' },
+  { username: 'admin@admin.com', password: 'password123' },
 ];
 
 app.post('/login', (req, res) => { // Ruta POST para iniciar sesión
