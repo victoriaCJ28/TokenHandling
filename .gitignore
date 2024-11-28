@@ -1,1 +1,20 @@
+
+# Node.js
 node_modules/
+
+
+# Angular build outputs
+dist/
+out-tsc/
+*.ngfactory.ts
+*.ngsummary.json
+
+# IDEs y editores
+
+.vscode/
+
+
+# Configuración temporal de Angular CLI
+.angular/
+.angular-cache/
+
